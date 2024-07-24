@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>ARS</title>
+  <meta name="title" content="ARS">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpeg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-light.png" width="150" height="24" alt="ARS home" class="logo-light">
+
+        <img src="./assets/images/logo-dark.png" width="150" height="24" alt="ARS home" class="logo-dark">
+      </a>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.png" width="74" height="24" alt="ARS home">
+          </a>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li>
+            <a href="#Home" class="navbar-link">家</a>
+          </li>
+          <li>
+            <a href="#Services" class="navbar-link">服务</a>
+          </li>
+          <li>
+            <a href="#About" class="navbar-link">关于我们</a>
+          </li>
+          <li>
+            <a href="#Projects" class="navbar-link">项目</a>
+          </li>
+          <li>
+            <a href="#Contact" class="navbar-link">联系</a>
+          </li>
+          <!-- Dropdown for language selection -->
+          <li class="navbar-lang">
+            <a href="#" class="navbar-link">语言</a>
+               <ul class="lang-dropdown">
+                    <li><a href="../../index.html" class="lang-option"><span class="flag-icon">🇫🇷</span> Français</a></li>
+                    <li><a href="../english/english.html" class="lang-option"><span class="flag-icon">🇬🇧</span> English</a></li>
+                    <li><a href="?lang=zh" class="lang-option"><span class="flag-icon">🇨🇳</span> 中文 (Mandarin)</a></li>
+              </ul>
+          </li>
+        </ul>
+        
+
+        <div class="wrapper">
+          <a href="mailto:rebiservices23@gmail.com" class="contact-link">rebiservices23@gmail.com</a>
+
+          <a href="tel:+243312748" class="contact-link">+ (243) 81 43 12 748</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <!--li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li-->
+
+        </ul>
+        
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="Home" class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpeg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Agence Rebi Services S.A.R.L</h1>
+
+            <p class="hero-text">
+              是一个多学科服务提供商，自豪地在OHADA体系下的刚果法律框架内运营。
+              我们致力于提供高质量的商品和服务，同时确保我们的设备现代且可靠。
+            </p>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jpeg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <!--div class="hero-card"-->
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  <!--/div-->
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+                </li>
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="services" id="Services">
+        <div class="container">
+          <div class="services__top">
+            <h2 class="services__title">我们提供的服务</h2>
+            <p class="services__text text">
+              我们提供多种服务，旨在满足客户的各种需求。我们多学科的方法确保提供量身定制的全面解决方案。以下是我们主要服务的概述：
+            </p>
+          </div>
+          <!-- cards -->
+          <ul class="services__cards">
+            <li class="services__card services__card-1">             
+              <h3 class="services__card-title">土木工程与建筑</h3>
+              <p class="services__card-text">
+                我们承担所有土木工程和建筑活动，提供高质量服务的同时，价格无与伦比
+              </p>
+            </li>
+            <li class="services__card services__card-2">             
+              <h3 class="services__card-title">维护</h3>
+              <p class="services__card-text">
+                我们提供纠正性、预测性和预防性维护，以及工业维护，以确保高效运作和最小的停机时间。
+              </p>
+            </li>
+            <li class="services__card services__card-3">             
+              <h3 class="services__card-title">清洁与消毒</h3>
+              <p class="services__card-text">
+                我们通过清洁工作区域、办公室以及处理治疗废料来管理卫生，所有操作均符合ISO 9001安全和环境标准。
+              </p>
+            </li>
+            <li class="services__card services__card-4">             
+              <h3 class="services__card-title">矿业相关商品</h3>
+              <p class="services__card-text">
+                我们拥有高效且有效的矿业操作所需的机械和设备，以及支持过程的必需试剂
+              </p>
+            </li>
+            <li class="services__card services__card-5">             
+              <h3 class="services__card-title">药品、耗材和医疗设备</h3>
+              <p class="services__card-text">
+                我们供应必要的药品、医疗耗材和设备，确保高标准的有效医疗和治疗。
+              </p>
+            </li>
+            <li class="services__card services__card-6">             
+              <h3 class="services__card-title">农业产品和投入品</h3>
+              <p class="services__card-text">
+                我们提供一系列农业产品和投入品，包括种子、肥料和土壤改良剂，以支持高效和生产性农业。
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- 
+        - #ABOUT
+      -->
+      <section class="about" aria-labelledby="about-label" id="About">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.jpg" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">为什么选择我们 ？</p>
+
+            <h2 class="h2 section-title">
+              我们提供解决方案，以使我们的合作伙伴生活更轻松。
+
+            </h2>
+            <ul>
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">专业知识</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    我们的团队由具备丰富行业经验的高技能专业人员组成。
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">定制化</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    我们根据每位客户的具体需求量身定制服务
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">质量与可靠性</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    我们致力于提供超出您期望的服务。
+                    您可以信赖我们提供一致且可靠的服务。
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #FEATURE
+      -->
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.jpg" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">我们的解决方案</p>
+            <p class="section-text">
+              我们提供高质量、量身定制的服务，配备先进的设备和熟练的人员，确保有效的解决方案满足您的具体需求。
+
+              我们以一系列核心价值观为指导，定义我们的业务方式以及与客户和合作伙伴的关系：
+            </p>
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    诚信
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    透明度
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    诚实
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    承诺
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  一致性
+                  <span class="span">
+                    
+                  </span>
+
+                </div>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label" id="Projects">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">项目</p>
+
+          <h2 class="h2 section-title">
+            查看一些我们充满创意的精彩项目。
+          </h2>
+          <ul class="grid-list">
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-1.jpg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">先进的矿业设备</a>
+                  </h3>
+                  <p class="card-text">
+                    我们提供先进的机械和工具，以实现高效且安全的矿业操作。我们的设备符合行业标准。
+                  </p>
+
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Project</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-2.jpg" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">现代建筑施工</a>
+                  </h3>
+                  <p class="card-text">
+                    我们在现代建筑施工方面表现卓越，将创新设计与优质材料相结合，以高效交付卓越成果。
+                  </p>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Project</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-3.jpg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">传统燃料、生物燃料、液化石油气（LPG）和压缩天然气（CNG）</a>
+                  </h3>
+                  <p class="card-text">
+                    我们供应多种产品，包括汽油、柴油、植物油、生物柴油、气体、酒精等。
+                  </p>
+
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">项目</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #CTA
+      -->
+      <section class="cta" aria-label="call to action" id="Contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            联系我们
+          </h2>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo-light.png" width="74" height="24" alt="ARS home">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2024 Agence Rebi Services. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <!--li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li-->
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <!--li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li-->
+        </ul>
+      </div>
+      <ul class="footer-list">
+        <li>
+          <p class="h4 footer-list-title">我们的实际地址</p>
+        </li>
+        <li>
+          <address class="footer-text">
+            卢本巴希大学行政大楼
+            Kasapa 路，卢本巴希市
+            高卡坦加省 / 刚果民主共和国
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:rebiservices23@gmail.com" class="footer-link">rebiservices23@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:+243814312748" class="footer-link">+ (243) 81 43 12 748 </a>
+        </li>
+
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <p class="h4 footer-list-title">首页</p>
+        </li>
+        <li>
+          <a href="#Services" class="footer-link">服务</a>
+        </li>
+        <li>
+          <a href="#Solutions" class="footer-link">我们的解决方案</a>
+        </li>
+        <li>
+          <a href="#Projects" class="footer-link">项目</a>
+        </li>
+      </ul>
+
+      <div class="footer-list">
+
+        <!--p class="h4 footer-list-title">Our Newsletter</p-->
+        <p class="footer-text">
+          立即联系我们，了解我们如何能够为您提供帮助。
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

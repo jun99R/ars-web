@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>ARS</title>
+  <meta name="title" content="ARS">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpeg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-light.png" width="150" height="24" alt="ARS home" class="logo-light">
+
+        <img src="./assets/images/logo-dark.png" width="150" height="24" alt="ARS home" class="logo-dark">
+      </a>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.png" width="74" height="24" alt="ARS home">
+          </a>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li>
+            <a href="#Home" class="navbar-link">Home</a>
+          </li>
+          <li>
+            <a href="#Services" class="navbar-link">Services</a>
+          </li>
+          <li>
+            <a href="#About" class="navbar-link">About us</a>
+          </li>
+          <li>
+            <a href="#Projects" class="navbar-link">Projects</a>
+          </li>
+          <li>
+            <a href="#Contact" class="navbar-link">Contact</a>
+          </li>
+          <!-- Dropdown for language selection -->
+          <li class="navbar-lang">
+            <a href="#" class="navbar-link">Languages</a>
+               <ul class="lang-dropdown">
+                    <li><a href="../../index.html" class="lang-option"><span class="flag-icon">🇫🇷</span> Français</a></li>
+                    <li><a href="?lang=en" class="lang-option"><span class="flag-icon">🇬🇧</span> English</a></li>
+                    <li><a href="../Mandarin/mandarin.html" class="lang-option"><span class="flag-icon">🇨🇳</span> 中文 (Mandarin)</a></li>
+              </ul>
+          </li>
+        </ul>
+        
+
+        <div class="wrapper">
+          <a href="mailto:rebiservices23@gmail.com" class="contact-link">rebiservices23@gmail.com</a>
+
+          <a href="tel:+243312748" class="contact-link">+ (243) 81 43 12 748</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+        
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="Home" class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpeg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Agence Rebi Services S.A.R.L</h1>
+
+            <p class="hero-text">
+              is a multidisciplinary service provider, proudly operating under Congolese law within the OHADA system. 
+              Our commitment lies in delivering high-quality goods and services while ensuring our equipment is modern and reliable.
+            </p>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jpeg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <!--div class="hero-card"-->
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  <!--/div-->
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+                </li>
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="services" id="Services">
+        <div class="container">
+          <div class="services__top">
+            <h2 class="services__title">Services We Offer</h2>
+            <p class="services__text text">
+              we offer a diverse range of services designed to meet the varied needs of our clients. 
+              Our multidisciplinary approach ensures that we provide comprehensive solutions tailored to specific requirements. 
+              Below is an overview of our key services:
+            </p>
+          </div>
+          <!-- cards -->
+          <ul class="services__cards">
+            <li class="services__card services__card-1">             
+              <h3 class="services__card-title">Civil Engineering and Construction</h3>
+              <p class="services__card-text">
+                We undertake all civil engineering and construction activities, 
+                offering unbeatable prices for our high-quality services.
+              </p>
+            </li>
+            <li class="services__card services__card-2">             
+              <h3 class="services__card-title">Maintenance</h3>
+              <p class="services__card-text">
+                We offer corrective, predictive, and preventive maintenance, 
+                along with industrial maintenance to ensure efficient operations and minimal downtime.
+              </p>
+            </li>
+            <li class="services__card services__card-3">             
+              <h3 class="services__card-title">Cleaning and Disinfection</h3>
+              <p class="services__card-text">
+                We manage sanitation through cleaning workspaces, offices, and handling waste from treatments, 
+                all in line with ISO 9001 safety and environmental standards.
+              </p>
+            </li>
+            <li class="services__card services__card-4">             
+              <h3 class="services__card-title">Mining-related goods</h3>
+              <p class="services__card-text">
+                We have the necessary machinery and equipment for efficient and effective mining operations,
+                as well as essential reagents to support the process.
+              </p>
+            </li>
+            <li class="services__card services__card-5">             
+              <h3 class="services__card-title">Pharmaceutical Products, Consumables, and Medical Equipment</h3>
+              <p class="services__card-text">
+                We supply essential pharmaceutical products, medical consumables, 
+                and equipment, ensuring high standards for effective healthcare and treatment.
+              </p>
+            </li>
+            <li class="services__card services__card-6">             
+              <h3 class="services__card-title">Agricultural Products and Inputs</h3>
+              <p class="services__card-text">
+              We provide a range of agricultural products and inputs, including seeds, fertilizers, and soil conditioners, 
+              to support efficient and productive farming.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- 
+        - #ABOUT
+      -->
+      <section class="about" aria-labelledby="about-label" id="About">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.jpg" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+            <h2 class="h2 section-title">
+              We bring solutions to make life easier for our Partners
+
+            </h2>
+            <ul>
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Expertise</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Our team comprises highly skilled professionals with extensive industry experience.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Customization</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    We tailor our services to meet the specific needs of each client.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Quality And Reliability</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    We are committed to delivering services that exceed your expectations.
+                    You can count on us to provide consistent and dependable service.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #FEATURE
+      -->
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.jpg" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+            <p class="section-text">
+              We deliver top-notch, tailored services with advanced equipment and skilled agents, ensuring effective solutions that meet 
+              your specific needs. 
+
+              we are guided by a set of core values that define our approach to business and 
+              our relationships with clients and partners:
+            </p>
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Integrity.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Transparency
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Honesty
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Commitment
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  Consistency
+                  <span class="span">
+                    
+                  </span>
+
+                </div>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label" id="Projects">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Projects</p>
+
+          <h2 class="h2 section-title">
+            Check out some of awesome projects with creative ideas.
+          </h2>
+          <ul class="grid-list">
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-1.jpg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Advanced Mining Equipment</a>
+                  </h3>
+                  <p class="card-text">
+                    We provide cutting-edge machinery and tools for efficient and safe mining operations.
+                    Our equipment meets industry standards.
+                  </p>
+
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Project</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-2.jpg" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Modern Building Construction</a>
+                  </h3>
+                  <p class="card-text">
+                    We excel in modern building construction, combining innovative design with 
+                    top-quality materials to deliver exceptional results efficiently.
+                  </p>
+
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Project</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-3.jpg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Classical fuels, biofuels, LPG, and CNG</a>
+                  </h3>
+                  <p class="card-text">
+                    We supply a diverse range of products, including gasoline, diesel, 
+                    vegetable oil, biodiesel, gas, alcohol, etc.
+                  </p>
+
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Project</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #CTA
+      -->
+      <section class="cta" aria-label="call to action" id="Contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Contact us 
+          </h2>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo-light.png" width="74" height="24" alt="ARS home">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2024 Agence Rebi Services. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Our Physical Address</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Administrative Building of the University of Lubumbashi, 
+            Kasapa Road, Lubumbashi City, 
+            Haut-Katanga / Democratic Republic of Congo
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:rebiservices23@gmail.com" class="footer-link">rebiservices23@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:+243814312748" class="footer-link">+ (243) 81 43 12 748 </a>
+        </li>
+
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <p class="h4 footer-list-title">Home</p>
+        </li>
+        <li>
+          <a href="#Services" class="footer-link">Services</a>
+        </li>
+        <li>
+          <a href="#Solutions" class="footer-link">Our solutions</a>
+        </li>
+        <li>
+          <a href="#Projects" class="footer-link">Projects</a>
+        </li>
+      </ul>
+
+      <div class="footer-list">
+
+        <!--p class="h4 footer-list-title">Our Newsletter</p-->
+        <p class="footer-text">
+          Contact us today to learn more about how we can assist you.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
